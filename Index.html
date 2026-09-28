@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mr. Ahmed</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: white;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+
+    /* Title */
+    h1 {
+      font-size: 38px;
+      color: #111;
+      margin-bottom: 8px;
+    }
+
+    /* Subtitle */
+    .subtitle {
+      color: #777;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    /* Social buttons */
+    .social-button {
+      width: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      gap: 12px;
+
+      padding: 16px;
+      margin: 15px 0;
+
+      border-radius: 14px;
+
+      text-decoration: none;
+
+      font-size: 18px;
+      font-weight: bold;
+
+      transition:
+        transform 0.2s ease,
+        opacity 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .social-button:hover {
+      transform: translateY(-3px);
+      opacity: 0.92;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .social-button:active {
+      transform: scale(0.97);
+    }
+
+    .social-button i {
+      font-size: 24px;
+    }
+
+
+    /* =========================
+       FACEBOOK
+       ========================= */
+
+    .facebook {
+      background: #1877F2;
+      color: white;
+    }
+
+
+    /* =========================
+       MESSENGER
+       ========================= */
+
+    .messenger {
+      background: #0084FF;
+      color: white;
+    }
+
+
+    /* =========================
+       WHATSAPP
+       ========================= */
+
+    .whatsapp {
+      background: #25D366;
+      color: white;
+    }
+
+
+    /* =========================
+       TELEGRAM
+       ========================= */
+
+    .telegram {
+      background: #229ED9;
+      color: white;
+    }
+
+
+    /* Footer */
+    .footer {
+      margin-top: 30px;
+      color: #aaa;
+      font-size: 13px;
+    }
+
+
+    /* Mobile */
+    @media (max-width: 480px) {
+
+      h1 {
+        font-size: 32px;
+      }
+
+      .social-button {
+        font-size: 17px;
+        padding: 15px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- TITLE -->
+    <h1>Mr. Ahmed</h1>
+
+    <p class="subtitle">
+      Connect with me
+    </p>
+
+
+    <!-- FACEBOOK -->
+    <a
+      class="social-button facebook"
+      href="https://www.facebook.com/share/1DL1wHDL3b/"
+      target="_blank"
+      rel="noopener noreferrer">
+
+      <i class="fa-brands fa-facebook"></i>
+
+      Facebook
+
+    </a>
+
+
+    <!-- MESSENGER -->
+    <a
+      class="social-button messenger"
+      href="https://m.me/"
+      target="_blank"
+      rel="noopener noreferrer">
+
+      <i class="fa-brands fa-facebook-messenger"></i>
+
+      Messenger
+
+    </a>
+
+
+    <!-- WHATSAPP -->
+    <!-- Phone number is hidden inside the link -->
+    <a
+      class="social-button whatsapp"
+      href="https://wa.me/201154816734">
+
+      <i class="fa-brands fa-whatsapp"></i>
+
+      WhatsApp
+
+    </a>
+
+
+    <!-- TELEGRAM -->
+    <!-- Phone number is hidden inside the link -->
+    <a
+      class="social-button telegram"
+      href="https://t.me/+201154816734">
+
+      <i class="fa-brands fa-telegram"></i>
+
+      Telegram
+
+    </a>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+      © 2026 Mr. Ahmed
+    </div>
+
+  </div>
+
+</body>
+</html>
